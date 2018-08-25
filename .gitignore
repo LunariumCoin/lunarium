@@ -127,3 +127,15 @@ qa/pull-tester/test.*/*
 cmake-build-debug
 
 cache
+
+\.settings/
+
+Lunarium\.config
+
+Lunarium\.creator
+
+Lunarium\.creator\.user
+
+Lunarium\.files
+
+Lunarium\.includes

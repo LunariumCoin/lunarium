@@ -6,7 +6,6 @@
 // Unit tests for alert system
 //
 
-#include "alert.h"
 #include "clientversion.h"
 #include "data/alertTests.raw.h"
 

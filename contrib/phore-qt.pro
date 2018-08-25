@@ -5,7 +5,7 @@
 DEFINES += ENABLE_WALLET
 
 TEMPLATE = app
-TARGET = 
+TARGET =
 DEPENDPATH += . \
               src \
               src/compat \
@@ -64,7 +64,6 @@ INCLUDEPATH += . \
 # Input
 HEADERS += src/activemasternode.h \
            src/addrman.h \
-           src/alert.h \
            src/allocators.h \
            src/amount.h \
            src/base58.h \
@@ -369,7 +368,6 @@ FORMS += src/qt/forms/addressbookpage.ui \
          src/qt/forms/transactiondescdialog.ui
 SOURCES += src/activemasternode.cpp \
            src/addrman.cpp \
-           src/alert.cpp \
            src/allocators.cpp \
            src/amount.cpp \
            src/base58.cpp \
@@ -541,7 +539,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/bip32_tests.cpp \
            src/test/bloom_tests.cpp \
            src/test/checkblock_tests.cpp \
-           src/test/Checkpoints_tests.cpp \
+           src/test/checkpoints_tests.cpp \
            src/test/coins_tests.cpp \
            src/test/compress_tests.cpp \
            src/test/crypto_tests.cpp \
